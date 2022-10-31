@@ -4,6 +4,11 @@
     id 'kotlin-andriod-extensions'}
 
 android {
+
+
+
+
+    
     namespace 'com.example.myapp'
     compileSdk 32
 

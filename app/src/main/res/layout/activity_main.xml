@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="calculator"
+        android:text="@string/calculator"
         android:textSize="20sp"
         android:layout_gravity="center"
         android:textColor="@color/black"
@@ -20,17 +20,19 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="first Number"
+        android:hint="@string/first_number"
         android:inputType="numberDecimal"
         android:layout_marginTop="20dp"
-        android:id="@+id/firstNumber"/>
+        android:id="@+id/edt_one"
+         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Second Number"
+        android:hint="@string/second_number"
         android:inputType="numberDecimal"
         android:layout_marginTop="20dp"
-        android:id="@+id/secondNumber"/>
+        android:id="@+id/edt_two"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,31 +44,31 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginHorizontal="2dp"
-            android:text="+"
-            android:id="@+id/btn_Plus"
+            android:text="@string/plus"
+            android:id="@+id/btn_plus"
             />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginHorizontal="2dp"
-            android:text="-"
-            android:id="@+id/btn_Minus"
+            android:text="@string/minus"
+            android:id="@+id/btn_minus"
             />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginHorizontal="2dp"
-            android:text="*"
-            android:id="@+id/btn_Star"
+            android:text="@string/asterisk"
+            android:id="@+id/btn_multiple"
             />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginHorizontal="2dp"
-            android:text="/"
+            android:text="@string/div"
             android:id="@+id/btn_div"
             />
     </LinearLayout>
@@ -75,8 +77,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Result"
+        android:text="@string/result"
         android:textColor="@color/black"
+        android:id="@+id/tv_result"
         android:textSize="20sp"
         />
 
